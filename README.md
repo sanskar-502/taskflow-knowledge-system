@@ -2,7 +2,6 @@
 
 <div align="center">
   <h3>An AI-powered platform demonstrating systems engineering, not just API wrapping.</h3>
-  <p>Built for the Top 1% Internship Submission</p>
 </div>
 
 ---
