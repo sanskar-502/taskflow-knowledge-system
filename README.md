@@ -13,9 +13,9 @@ TaskFlow AI is built using a modern, scalable, and modular layered architecture.
 ### High-Level System Flow
 ```mermaid
 graph TD
-    Client[React Frontend] <-->|REST API (JSON)| FastAPI[FastAPI Backend]
-    FastAPI <-->|SQLAlchemy ORM| MySQL[(MySQL Database)]
-    FastAPI <-->|AI Pipeline| ChromaDB[(ChromaDB Vector Store)]
+    Client[React Frontend] -->|REST API JSON| FastAPI[FastAPI Backend]
+    FastAPI -->|SQLAlchemy ORM| MySQL[(MySQL Database)]
+    FastAPI -->|AI Pipeline| ChromaDB[(ChromaDB Vector Store)]
     FastAPI -->|Middleware| Logging(Activity Logger)
 ```
 
