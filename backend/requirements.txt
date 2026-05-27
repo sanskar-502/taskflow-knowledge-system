@@ -1,0 +1,26 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Database
+sqlalchemy==2.0.35
+pymysql==1.1.1
+cryptography==43.0.1
+alembic==1.13.3
+
+# Authentication
+pyjwt==2.9.0
+bcrypt==4.2.0
+python-multipart==0.0.12
+passlib[bcrypt]==1.7.4
+
+# AI and embeddings
+sentence-transformers==3.1.1
+chromadb==0.5.11
+torch==2.4.1
+
+# Utilities
+python-dotenv==1.0.1
+pydantic-settings==2.5.2
+aiofiles==24.1.0
+email-validator==2.2.0
